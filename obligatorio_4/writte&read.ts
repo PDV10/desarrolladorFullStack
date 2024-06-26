@@ -6,7 +6,7 @@ const productos: string[] = ["Leche", "Galletitas", "Harina", "Queso"];
 llenarProductos(productos);
 llenarPrecios(precios);
 
-const preciosObtenidos :string = fs.readFileSync('./precios.txt', 'utf8');
+const preciosObtenidos :string = fs.readFileSync('./precios.txt', 'utf8'); //'525, 3500, 400, 1999'
 let preciosSinEspacios : string = preciosObtenidos.trim();
 let preciosObtenidosFinal : string[]= preciosSinEspacios.split(" ");
 
