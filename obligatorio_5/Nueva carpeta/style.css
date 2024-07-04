@@ -5,12 +5,14 @@
 
 .container{
     width: 100vw;
+   
 }
 
 .header{
     display: flex;
     flex-direction: row;
     width: 100%;
+   
 }
 
 .header-left{
@@ -48,8 +50,10 @@
 }
 
 .body-right{
+    display: flex;
+    flex-direction: column;
     margin: 10px 10px 10px 0px; 
-    width: 90%;
+    width: 80%;
     height: 550px;
 }
 
@@ -85,4 +89,4 @@
     height: 10em;
     background-color: #5ce1e6;
     border: 2px dashed black;
-}
+} 
