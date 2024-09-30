@@ -1,4 +1,5 @@
 "use strict"
+
 let btnCargar = document.getElementById("btn-cargar")
 btnCargar.addEventListener("click", cargar);
 let contenedor = document.getElementById("contenedor-cards")
